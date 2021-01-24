@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using FluentValidationZero.Models;
 
 namespace FluentValidationZero
@@ -13,7 +14,6 @@ namespace FluentValidationZero
                 Firstname = "ploypailin",
                 Lastname = "wongpichit",
                 //TODO : Edit address type 
-                Address = "kinggpower"
             };
             
             var results = new CustomerValidator().Validate(customer);

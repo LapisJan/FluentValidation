@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using FluentValidation;
 
 namespace FluentValidationZero.Models
@@ -7,8 +8,8 @@ namespace FluentValidationZero.Models
         public int Id { get; set; }
         public string Firstname { get; set; }
         public string Lastname { get; set; }
-        //TODO : Add address data type
-        public string Address { get; set; }
+        //TODO : Add list of address data type
+        public string Addresses { get; set; }
     }
 
     public class CustomerValidator : AbstractValidator<Customer>
@@ -18,11 +19,8 @@ namespace FluentValidationZero.Models
             RuleFor(x => x.Id).NotNull();
             RuleFor(x => x.Firstname).NotEmpty();
             RuleFor(x => x.Lastname).NotEmpty();
-            RuleFor(x => x.Address).NotEmpty();
             
             //TODO : Add chaining child for address
         }
     }
-
-    //TODO : Add address validator
 }
