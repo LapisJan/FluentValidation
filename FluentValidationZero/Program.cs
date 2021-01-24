@@ -9,9 +9,10 @@ namespace FluentValidationZero
         {
             var customer = new Customer()
             {
+                // TODO : Edit value to validation
                 Id = 1,
-                Firstname = "ploypailin",
-                Lastname = "wongpichit",
+                Firstname = "",
+                Lastname = "",
                 Address = "kingpower"
             };
             

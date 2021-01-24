@@ -14,6 +14,9 @@ namespace FluentValidationZero.Models
     {
         public CustomerValidator()
         {
+            //TODO : Override 
+            // 1. Message : text, placeholder
+            // 2. Name
             RuleFor(x => x.Id).NotNull();
             RuleFor(x => x.Firstname).NotEmpty();
             RuleFor(x => x.Lastname).NotEmpty();
