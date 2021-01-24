@@ -10,7 +10,7 @@ namespace FluentValidationZero
             var customer = new Customer()
             {
                 Id = 1,
-                Firstname = "",
+                Firstname = "ploypailin",
                 Lastname = "wongpichit",
                 Address = "kingpower"
             };
