@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vZc9qNwnYNynPW+dPAwaTAvHB39zZrMmRd8j49uzL8/tf8GDgW7X0GmyoI33vWUuVvo3y+CZ3ZvlfRobH/dNJQ==",
+  "success": true,
+  "projectFilePath": "/Users/80374/Projects/FluentValidationZero/FluentValidationZero/FluentValidationZero.csproj",
+  "expectedPackageFiles": [
+    "/Users/80374/.nuget/packages/fluentvalidation/9.4.0/fluentvalidation.9.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

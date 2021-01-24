@@ -1,0 +1,17 @@
+/Users/80374/Projects/FluentValidationZero/FluentValidationZero/bin/Debug/net5.0/FluentValidationZero.deps.json
+/Users/80374/Projects/FluentValidationZero/FluentValidationZero/bin/Debug/net5.0/FluentValidationZero.runtimeconfig.json
+/Users/80374/Projects/FluentValidationZero/FluentValidationZero/bin/Debug/net5.0/FluentValidationZero.runtimeconfig.dev.json
+/Users/80374/Projects/FluentValidationZero/FluentValidationZero/bin/Debug/net5.0/FluentValidationZero.dll
+/Users/80374/Projects/FluentValidationZero/FluentValidationZero/bin/Debug/net5.0/ref/FluentValidationZero.dll
+/Users/80374/Projects/FluentValidationZero/FluentValidationZero/bin/Debug/net5.0/FluentValidationZero.pdb
+/Users/80374/Projects/FluentValidationZero/FluentValidationZero/obj/Debug/net5.0/FluentValidationZero.csprojAssemblyReference.cache
+/Users/80374/Projects/FluentValidationZero/FluentValidationZero/obj/Debug/net5.0/FluentValidationZero.GeneratedMSBuildEditorConfig.editorconfig
+/Users/80374/Projects/FluentValidationZero/FluentValidationZero/obj/Debug/net5.0/FluentValidationZero.AssemblyInfoInputs.cache
+/Users/80374/Projects/FluentValidationZero/FluentValidationZero/obj/Debug/net5.0/FluentValidationZero.AssemblyInfo.cs
+/Users/80374/Projects/FluentValidationZero/FluentValidationZero/obj/Debug/net5.0/FluentValidationZero.csproj.CoreCompileInputs.cache
+/Users/80374/Projects/FluentValidationZero/FluentValidationZero/obj/Debug/net5.0/FluentValidationZero.dll
+/Users/80374/Projects/FluentValidationZero/FluentValidationZero/obj/Debug/net5.0/ref/FluentValidationZero.dll
+/Users/80374/Projects/FluentValidationZero/FluentValidationZero/obj/Debug/net5.0/FluentValidationZero.pdb
+/Users/80374/Projects/FluentValidationZero/FluentValidationZero/obj/Debug/net5.0/FluentValidationZero.genruntimeconfig.cache
+/Users/80374/Projects/FluentValidationZero/FluentValidationZero/bin/Debug/net5.0/FluentValidation.dll
+/Users/80374/Projects/FluentValidationZero/FluentValidationZero/obj/Debug/net5.0/FluentValidationZero.csproj.CopyComplete
