@@ -14,7 +14,8 @@ namespace FluentValidationZero.Models
     {
         public CustomerValidator()
         {
-            RuleFor(x => x.Id).NotNull();
+            //TODO : Edit condition for id (Between)
+            RuleFor(x => x.Id).NotEmpty();
             RuleFor(x => x.Firstname).NotEmpty();
             RuleFor(x => x.Lastname).NotEmpty();
             RuleFor(x => x.Address).NotEmpty();
