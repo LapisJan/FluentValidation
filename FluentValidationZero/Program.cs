@@ -12,7 +12,8 @@ namespace FluentValidationZero
                 Id = 1,
                 Firstname = "ploypailin",
                 Lastname = "wongpichit",
-                Address = "kingpower"
+                //TODO : Edit address type 
+                Address = "kinggpower"
             };
             
             var results = new CustomerValidator().Validate(customer);
