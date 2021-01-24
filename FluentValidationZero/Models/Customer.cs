@@ -14,6 +14,8 @@ namespace FluentValidationZero.Models
     {
         public CustomerValidator()
         {
+            //TODO : Cascade mode
+            //TODO : Dependent rules
             RuleFor(x => x.Id).NotNull();
             RuleFor(x => x.Firstname).NotEmpty();
             RuleFor(x => x.Lastname).NotEmpty();
