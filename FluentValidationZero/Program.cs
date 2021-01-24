@@ -9,12 +9,14 @@ namespace FluentValidationZero
         {
             var customer = new Customer()
             {
+                // TODO : Edit value to validate
                 Id = 1,
                 Firstname = "ploypailin",
                 Lastname = "wongpichit",
                 Address = "kingpower"
             };
             
+            //TODO : Add validator for RuleSets
             var results = new CustomerValidator().Validate(customer);
             
             if(!results.IsValid) {

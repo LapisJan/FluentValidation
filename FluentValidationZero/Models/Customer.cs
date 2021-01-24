@@ -15,6 +15,7 @@ namespace FluentValidationZero.Models
         public CustomerValidator()
         {
             RuleFor(x => x.Id).NotNull();
+            //TODO : Add RuleSets
             RuleFor(x => x.Firstname).NotEmpty();
             RuleFor(x => x.Lastname).NotEmpty();
             RuleFor(x => x.Address).NotEmpty();
