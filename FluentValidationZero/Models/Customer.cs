@@ -1,3 +1,5 @@
+using System;
+using System.Reflection;
 using FluentValidation;
 
 namespace FluentValidationZero.Models
@@ -8,6 +10,7 @@ namespace FluentValidationZero.Models
         public string Firstname { get; set; }
         public string Lastname { get; set; }
         public string Address { get; set; }
+        public CustomerType CustomerType { get; set; }
     }
 
     public class CustomerValidator : AbstractValidator<Customer>
@@ -18,6 +21,7 @@ namespace FluentValidationZero.Models
             RuleFor(x => x.Firstname).NotEmpty();
             RuleFor(x => x.Lastname).NotEmpty();
             RuleFor(x => x.Address).NotEmpty();
+            //TODO : Add rule for enum customer types
         }
     }
 }

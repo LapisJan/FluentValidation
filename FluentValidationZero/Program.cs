@@ -12,7 +12,8 @@ namespace FluentValidationZero
                 Id = 1,
                 Firstname = "ploypailin",
                 Lastname = "wongpichit",
-                Address = "kingpower"
+                Address = "kingpower",
+                //TODO : Add customer type
             };
             
             var results = new CustomerValidator().Validate(customer);
@@ -26,7 +27,6 @@ namespace FluentValidationZero
             {
                 Console.WriteLine("Data is valid.");
             }
-            //Console.WriteLine("Hello World!");
         }
     }
 }
